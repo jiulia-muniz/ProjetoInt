@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAWN!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- barra de informações do cabeçalho -->
+      <div id="header-info-bar">
+        <!-- container ajuda a centralizar o contéudo -->
+        <!-- informações para o usuário ver -->
+        <!-- tipo a localização da loja -->
+        <h4>Campinas - SP</h4>
+        <!-- mostrar que vende em todo o brasil -->
+        <!-- que fornece compras online ou por telefone -->
+        <h4>
+          Entregamos em todo o Brasil - compre online ou ligue para 0800 123
+          4567
+        </h4>
+        <!-- linha para ajuda -->
+        <h4>Precisa de ajuda?</h4>
+      </div>
+      <!-- restante do conteúdo do cabeçalho... -->
+      <div id="header-top" class="container">
+        <!-- logo da loja -->
+        <div class="header-logo">
+          <img src="./images/site/logo.png" alt="Logo da loja Dawn" />
+        </div>
+        <!-- barra de pesquisa -->
+        <div class="search-bar">
+          <i class="bi bi-search"></i>
+          <input type="text" name="search" id="search" placeholder="O que você precisa?"/>
+        </div>
+        <!-- icones do topo do cabeçalho -->
+        <div class="header-top-icons">
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-person"></i>
+          <i class="bi bi-cart"></i>
+        </div>
+      </div>
+      <!-- nav bar-->
+      <nav class="header-navbar" id="navbar">
+        <ul class="container">
+          <li><a href="blusas.html">Moletons</a></li>
+          <li><a href="jeans.html">Jeans</a></li>
+          <li><a href="tops.html">Top's</a></li>
+          <li><a href="acessorios.html">Acessórios</a></li>
+          <li><a href="todos.html">Todos</a></li>
+        </ul>
+      </nav>
+      <div id="header-banner" class="container">
+        <img
+          src="./images/site/banner1.png"
+          alt="banner de representação da loja"
+          class="banner"
+        />
+      </div>
+      <main id="main-content">
+        <div class="container">
+              <section id="section-category">
+              <a href="pagina_acessorios.html" class="">
+                  <div class="main-category-card">
+                  <img src="./images/babytee/corset.png" alt="corset de couro" />
+                  <h4>Baby Tee</h4>
+                  </div>
+              </a>
+  
+              <a href="pagina_acessorios.html" class="category-link">
+                  <div class="main-category-card">
+                  <img
+                      class="teste"
+                      src="./images/acessorios/oculos-y2k.png"
+                      alt="Oculos de estrela"
+                  />
+                  <h4>Acessórios</h4>
+                  </div>
+              </a>
+              <a href="pagina_acessorios.html" class="category-link">
+                  <div class="main-category-card">
+                  <img src="./images/inverno/blusa-branca.png" alt="blusa branca de lã" />
+                  <h4>Inverno</h4>
+                  </div>
+              </a>
+              <a href="pagina_acessorios.html" class="category-link">
+                  <div class="main-category-card">
+                  <img src="./images/chapeu/boina_reta.png.png" alt="boina francesa" />
+                  <h4>Chapéus</h4>
+                  </div>
+              </a>
+              <a href="pagina_acessorios.html" class="category-link">
+                  <div class="main-category-card">
+                  <img src="./images/ParteDeBaixo/saia-couro.png" alt="jaqueta de couro preta" />
+                      <h4>Inferior</h4>
+                  </div>
+                  </div>
+              </a>
+              </section>
+              <div class="container">
+                <div class="main-banner">
+                    <img src="./images/site/banner2.png"  id="header-banner2" alt="banner dos melhores looks montados aqui" class="banner">
+                </div>
+                  <h2 class="main-titile">Novidades!</h2>
+              </div>
+              
+
+<!-- Link para Javascrip - NAO EXCLUIR -->
+<script type="module" src="./scripts/home.js" defer></script>
+<!-- Link para Javascrip - NAO EXCLUIR -->
+
+<div class="container">
+  <!-- Componente Carrousel de Produtos -->
+  <section id="section-1" class="section-product-carrousel">
+    <button class="prev">
+      <i class="bi bi-chevron-double-left"></i>
+    </button>
+    <div class="carrousel">
+      <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+    </div>
+    <button class="next">
+      <i class="bi bi-chevron-double-right"></i>
+    </button>
+  </section>
+
+  <!-- Botoes reservados para o carrousel - nao remover -->
+
+
+  <div class="container">
+      <!-- terceiro banner -->
+        <img src="./images/site/banner3.png"  id="header-banner3" alt="Banner de produtos 10% off" class="banner">
+    </div>
+
+
+  <!-- Componente Carrousel de Produtos -->
+  <section id="section-2" class="section-product-carrousel">
+    <button class="prev">
+      <i class="bi bi-chevron-double-left"></i>
+    </button>
+    <div class="carrousel">
+      <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+    </div>
+    <button class="next">
+      <i class="bi bi-chevron-double-right"></i>
+    </button>
+  </section>
+  <!-- Botoes reservados para o carrousel - nao remover -->
+
+
+
+  <!-- Componente Carrousel de Produtos -->
+  <section id="section-3" class="section-product-carrousel">
+    <button class="prev">
+      <i class="bi bi-chevron-double-left"></i>
+    </button>
+    <div class="carrousel">
+      <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+    </div>
+    <button class="next">
+      <i class="bi bi-chevron-double-right"></i>
+    </button>
+  </section>
+  <!-- Botoes reservados para o carrousel - nao remover -->
+</div>
+
